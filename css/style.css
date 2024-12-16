@@ -1,0 +1,319 @@
+/* ================Global CSS================  */
+body {
+  font-family: "Poppins", sans-serif;
+}
+section {
+  padding: 75px 0px !important;
+}
+img {
+  max-width: 100%;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+}
+.heading {
+  color: #232c41;
+  font-size: 42px;
+  line-height: 50px;
+  font-weight: 600;
+}
+.sub-heading {
+  color: #232c41;
+  font-size: 36px !important;
+  line-height: 42px;
+  font-weight: 600;
+}
+.container {
+  max-width: 1240px;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #bfe0ff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 19px;
+  font-weight: 500;
+  border-radius: 14px;
+  color: #232c41;
+  transition: background-color 0.5s ease;
+}
+.btn-primary:hover {
+  background-color: #82c1fc;
+  color: #232c41;
+}
+.btn-custom {
+  background-color: #bfe0ff;
+  color: #000;
+  border: none;
+  font-weight: 500;
+  font-size: 19px;
+}
+.btn-2 {
+  font-weight: 500;
+  border-radius: 14px;
+  font-size: 19px;
+}
+/* ================header================= */
+/* .nav-item a {
+  color: #fff !important;
+} */
+.nav-link {
+  color: #a7c8e3 !important;
+  margin: 0px 10px !important;
+  font-weight: 600;
+}
+.nav-link:hover {
+  color: white !important;
+}
+/* ===============Hero section===========  */
+
+.hero-section {
+  margin-top: -70px;
+  background: url("../img/hero-bg.png") no-repeat center;
+  background-size: cover;
+  height: 70vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional text shadow for better visibility */
+}
+
+.hero-title {
+  font-size: 54px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero-title .highlight {
+  border: 1px solid #ddd;
+  border-radius: 80px;
+  padding: 0px 10px !important;
+}
+
+.hero-subtitle {
+  color: #d6edff;
+  font-size: 20px;
+  font-weight: 400;
+  /* margin-bottom: 30px; */
+}
+
+/* ===============Gateway section============  */
+.gateway {
+  display: flex;
+  height: 650px !important;
+  background: url(../img/gateway-bg.png) center center no-repeat;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+.gateway .section-subtitle {
+  font-size: 18px;
+  color: #515d7f;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.card {
+  margin-top: 50px;
+  color: #101828;
+  border-radius: 10px;
+  border: 0px;
+  box-shadow: 0px 0px 3px #a0cbed;
+}
+.card-content {
+  padding: 30px 20px;
+}
+.card-title {
+  font-weight: 600;
+}
+.card img {
+  max-width: 90px;
+  margin-top: -100px;
+  border: none;
+}
+
+/* ===============Step section==============  */
+#steps {
+  background-color: #fafafa !important;
+}
+.mobile-img {
+  display: none;
+}
+
+/* =================trust section============  */
+.trust {
+  background-color: #f1f8ff;
+}
+
+.trust .col-md-4 {
+  padding-left: 0px; /* Reduce left padding */
+  padding-right: 0px;
+  margin-left: 0px; /* Reduce right padding */
+  margin-right: 0px; /* Reduce right padding */
+}
+.trust .info-title {
+  font-family: "inter";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.trust .info-description {
+  font-family: "inter";
+  font-size: 16;
+}
+
+/* =============Video Section===============  */
+#video {
+  background-color: #fcfdfe;
+}
+#video .card {
+  box-shadow: 0px 1px 10px #0000002f;
+}
+.download-icon {
+  margin-top: -3px !important;
+  margin-right: 4px;
+}
+/* .learn-more {
+  padding: 120px 0;
+} */
+
+.learn-more ul li a {
+  font-weight: 300;
+  font-family: "poppins";
+}
+
+/* ================faq section================  */
+/* .faq {
+  font-size: 36px;
+  line-height: 40px;
+} */
+/* .accordion {
+  z-index: ;
+} */
+.accordion-button {
+  background-color: #fff;
+  font-weight: 500;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-body {
+  color: #6c757d;
+}
+
+.toggle-icon {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Hide Bootstrap default caret */
+.accordion-button::after {
+  display: none;
+}
+
+/* Toggle the + and - icons */
+.accordion-button:not(.collapsed) .icon::after {
+  content: "-";
+}
+
+.accordion-button.collapsed .icon::after {
+  content: "+";
+}
+
+/* Remove default Bootstrap icon */
+.accordion-button::after {
+  display: none;
+}
+
+/* call to aciton and footter  */
+.btn.btn-primary.btn-lg.mt-4 {
+  text-shadow: none;
+}
+
+.call-to {
+  background: url(../img/cta-bg.png) no-repeat center center;
+  background-size: cover;
+  height: 320px;
+  color: #ffff;
+}
+
+/* Footer section style  */
+
+.footer {
+  background-color: #111624; /* Footer background */
+  padding: 50px 0;
+}
+.footer h5 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+.footer a {
+  color: #92949b;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  transition: color 0.3s ease-in-out;
+}
+.footer p {
+  color: #92949b;
+  margin: 0px !important;
+}
+.footer p a {
+  color: #92949b !important;
+  font-size: 18px;
+  margin: 0;
+}
+
+.contact-info {
+  line-height: 2;
+}
+
+/* Footer botton  */
+
+.footer-bottom {
+  background-color: #111624; /* Footer background */
+  padding: 20px 0;
+  font-size: 14px;
+  text-align: center;
+}
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-bottom a:hover {
+  color: #aaa;
+}
+.social-icons a i {
+  color: #99aee0;
+  font-size: 24px;
+  margin: 0 15px;
+  transition: color 0.3s ease-in-out;
+}
+.social-icons a:nth-child(1) {
+  margin: 0;
+}
+
+.social-icons a i:hover {
+  color: #fff;
+}
+
+.footer-bottom .copyright {
+  color: #8f9cc3;
+}

@@ -1,0 +1,84 @@
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  /* Global CSS  */
+  .container {
+    max-width: 95%;
+  }
+  .heading {
+    font-size: 32px !important;
+    line-height: 38px;
+    width: 100% !important;
+  }
+  .sub-heading {
+    font-size: 25px !important;
+    line-height: 32px;
+  }
+  section {
+    padding: 50px 0px !important;
+  }
+  .gateway {
+    height: auto !important;
+    padding: 50px;
+  }
+  .gateway .section-subtitle {
+    width: 100%;
+    font-size: 16px;
+    line-height: 17px;
+  }
+  /* .hero-title {
+    font-size: 2.5rem; 
+  } */
+  /* ============Hero Section =========== */
+  .hero-section {
+    height: 90vh;
+  }
+  .hero-title {
+    font-size: 35px;
+  }
+  .hero-subtitle {
+    font-size: 1rem; /* Adjust subtitle for smaller screens */
+  }
+
+  .btn-primary {
+    padding: 12px 25px; /* Adjust button padding */
+    font-size: 1rem; /* Smaller font size on mobile */
+    border-radius: 10px;
+    margin-top: 10px !important;
+  }
+  .btn-2 {
+    font-size: 1rem !important; /* Smaller font size on mobile */
+    border-radius: 10px !important;
+    padding: 7px 12px !important;
+  }
+  .trust .col-md-4 {
+    margin-top: 30px;
+    padding-left: 15px; /* Reduce left padding */
+    padding-right: 15px;
+    margin-left: 0px; /* Reduce right padding */
+    margin-right: 0px; /* Reduce right padding */
+  }
+  .mobile-img {
+    display: block;
+  }
+  .desktop-img {
+    display: none;
+  }
+  .mobile-img:nth-child(1) {
+    margin-right: 200px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  #navbarNav {
+    position: absolute !important;
+    top: 100%;
+    background: #1f3f62;
+    width: 100%;
+    text-align: center;
+    left: 0;
+  }
+  /* 
+  .nav-item {
+    border-bottom: 1px solid #ddd !important;
+  } */
+}
